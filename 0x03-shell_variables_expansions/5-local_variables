@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "" $(set | grep "^[^=]*=" | cut -d' ' -f1) "\n" $(env | awk -F= '{print $1}') "\n" $(declare -F | awk '{print $3}')
