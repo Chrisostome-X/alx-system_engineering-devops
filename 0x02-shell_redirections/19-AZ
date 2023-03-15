@@ -1,0 +1,2 @@
+#!/bin/bash
+input="AcadeMic" echo "$input" | tr 'Ac' 'Ze' 'c' 'e'

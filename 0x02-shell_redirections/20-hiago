@@ -1,0 +1,2 @@
+#!/bin/bash
+input="Coca Cola" echo "$input" | tr -d 'cC'
